@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Super Cleaner Support</title>
+  <style>
+    :root { color-scheme: light dark; --accent: #0a84ff; --bg: #f6f8fb; --card: #ffffff; --text: #172033; --muted: #667085; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #080b12; --card: #121826; --text: #f6f8fb; --muted: #a5adbd; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: radial-gradient(circle at top left, rgba(10,132,255,.22), transparent 32rem), var(--bg); color: var(--text); line-height: 1.65; }
+    main { width: min(900px, calc(100% - 32px)); margin: 0 auto; padding: 72px 0; }
+    .hero { padding: 42px; border-radius: 28px; background: var(--card); box-shadow: 0 24px 80px rgba(15, 23, 42, .12); }
+    h1 { margin: 0 0 12px; font-size: clamp(34px, 6vw, 58px); line-height: 1.05; }
+    p { margin: 0 0 18px; color: var(--muted); }
+    .links { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px; margin-top: 28px; }
+    a.card { display: block; padding: 20px; border-radius: 18px; background: rgba(10,132,255,.1); color: var(--text); text-decoration: none; border: 1px solid rgba(10,132,255,.18); }
+    a.card strong { display: block; font-size: 18px; margin-bottom: 4px; }
+    a.card span { color: var(--muted); font-size: 14px; }
+    footer { margin-top: 28px; color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <h1>Super Cleaner</h1>
+      <p>Support and legal information for Super Cleaner, an iOS photo and video cleanup app.</p>
+      <p>Contact: <a href="mailto:daxianlaile12345@outlook.com">daxianlaile12345@outlook.com</a></p>
+      <div class="links">
+        <a class="card" href="privacy.html"><strong>Privacy Policy</strong><span>How Super Cleaner handles your data.</span></a>
+        <a class="card" href="terms.html"><strong>Terms of Use</strong><span>Rules and subscription terms.</span></a>
+        <a class="card" href="support.html"><strong>Support</strong><span>Get help or contact us.</span></a>
+      </div>
+    </section>
+    <footer>Last updated: July 3, 2026</footer>
+  </main>
+</body>
+</html>
